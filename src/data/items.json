@@ -1,0 +1,135 @@
+[
+{
+    "id": 1,
+    "name": "seafood pizza",
+    "ingredients": ["snail", "fish", "shrimp"],
+    "price": 140,
+    "orderQty": 0,
+    "category": "pizza",
+    "popular": true,
+    "imgUrl": "/Assets/p2.jpg"
+
+  },
+  {
+    "id": 2,
+    "name": "chicken ranch pizza",
+    "ingredients": ["chicken", "ranch sauce"],
+    "price": 120,
+    "orderQty": 0,
+    "category": "pizza",
+    "popular": true,
+    "imgUrl": "/Assets/p2.jpg"
+
+  },
+  {
+    "id": 3,
+    "name": "Cheese mix pizza",
+    "ingredients": ["snail", "fish", "shrimp"],
+    "price": 140,
+    "orderQty": 0,
+    "category": "pizza",
+   "popular": true,
+   "imgUrl": "/Assets/p2.jpg"
+
+  },
+  {
+    "id": 4,
+    "name": "chicken ranch pizza",
+    "ingredients": ["chicken", "ranch sauce"],
+    "price": 120,
+    "orderQty": 0,
+    "category": "pizza",
+    "popular": true,
+    "imgUrl": "/Assets/p2.jpg"
+
+  },
+  {
+    "id": 5,
+    "name": "beef burger",
+    "ingredients": ["beef", "cheese", "lattice"],
+    "price": 45,
+    "orderQty": 0,
+    "category": "burger",
+    "popular": true,
+    "imgUrl": "/Assets/p2.jpg"
+
+  },
+  {
+    "id": 6,
+    "name": "beef burger",
+    "ingredients": ["beef", "cheese", "lattice"],
+    "price": 45,
+    "orderQty": 0,
+    "category": "burger",
+    "popular": true,
+    "imgUrl": "/Assets/p2.jpg"
+
+  },
+  {
+    "id": 7,
+    "name": "beef burger",
+    "ingredients": ["beef", "cheese", "lattice"],
+    "price": 45,
+    "orderQty": 0,
+    "category": "burger",
+    "popular": true,
+    "imgUrl": "/Assets/p2.jpg"
+
+  },
+  {
+    "id": 8,
+    "name": "beef burger",
+    "ingredients": ["beef", "cheese", "attice"],
+    "price": 45,
+    "orderQty": 0,
+    "category": "burger",
+    "popular": true,
+    "imgUrl": "/Assets/p2.jpg"
+
+  },
+  {
+    "id": 9,
+    "name": "espresso",
+    "ingredients": ["coffee"],
+    "price": 35,
+    "orderQty": 0,
+    "category": "drinks",
+    "popular": false,
+    "imgUrl": "/Assets/p2.jpg"
+
+  },
+  {
+    "id": 10,
+    "name": "mocha",
+    "ingredients": ["coffee", "chocolate"],
+    "price": 55,
+    "orderQty": 0,
+    "category": "drinks",
+    "popular": true,
+    "imgUrl": "/Assets/p2.jpg"
+
+  },
+  {
+    "id": 11,
+    "name": "espresso",
+    "ingredients": ["coffee"],
+    "price": 35,
+    "orderQty": 0,
+    "category": "drinks",
+    "popular": false,
+    "imgUrl": "/Assets/p2.jpg"
+
+  },
+  {
+    "id": 12,
+    "name": "mocha",
+    "ingredients": ["coffee", "chocolate"],
+    "price": 55,
+    "orderQty": 0,
+    "category": "drinks",
+    "popular": true,
+    "imgUrl": "/Assets/p2.jpg"
+
+  }
+  
+]

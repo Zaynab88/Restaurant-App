@@ -1,25 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Route, Routes } from "react-router-dom";
+import Home from "./Pages/Home";
+import Navbar from "./Components/Navbar";
+import Menu from "./Pages/Menu";
+import { OrderCartProvider } from "./Context/OrderCartContext";
+import { Checkout } from "./Pages/Checkout";
+import Dashboard from "./Pages/Dashboard";
+import Footer from "./Components/footer";
+import { Order_Success } from "./Pages/Ourder_Success";
+import { Container } from "react-bootstrap";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <OrderCartProvider>
+        <Navbar />
+        <Routes>
+          <Route>
+            <Route path="/" element={<Home />} />
+            <Route path="/Menu" element={<Menu />} />
+            <Route path="/checkout" element={<Checkout />} />
+            <Route path="/Order_Success" element={<Order_Success />} />
+          </Route>{" "}
+          <Route path="/Dashboard" element={<Dashboard />} />
+        </Routes>
+        <Footer />
+      </OrderCartProvider>
+
+    </>
   );
 }
 
