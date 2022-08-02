@@ -11,7 +11,7 @@ type orderCartProps ={
 
     isOpen:boolean
 }
-//ASK FOR DEFFERNCE BETWEEN TYPE & INTERFACE10
+//ASK FOR DEFFERNCE BETWEEN TYPE & INTERFACE
   
 export function OrderCart({isOpen}:orderCartProps) {
 

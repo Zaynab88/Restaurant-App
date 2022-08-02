@@ -11,11 +11,11 @@ export function Checkout() {
 
   return (
     <>
-    <div style={{ minHeight: "calc(100vh - 90px)" }}>
+    <div style={{ minHeight: "calc(100vh - 80px)" }}>
       <Row>
         <Col>
           {" "}
-          <Form className=" mt-4 p-4 align  min-vh-50">
+          <Form className=" mt-4 p-4 align  min-vh-50" >
             <Form.Group className="mb-3">
               <Form.Label>name</Form.Label>
               <Form.Control type="customerName" placeholder="Enter your name" />

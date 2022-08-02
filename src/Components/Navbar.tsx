@@ -9,7 +9,7 @@ function Navbar() {
 
   return (
     <>
-      <NavbarBs  className="fixed-top" bg="dark" variant="dark" >
+      <NavbarBs  bg="dark" variant="dark" >
         <Container>
 
 

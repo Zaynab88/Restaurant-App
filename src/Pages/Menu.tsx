@@ -4,6 +4,8 @@ import menuItems from '../data/items.json';
 import  {MenuItem} from "../Components/MenuItem";
 
  function Menu() {
+
+  
   return (
   <>
     <Row  md={2} xs={1} lg={3} className="g-3">
